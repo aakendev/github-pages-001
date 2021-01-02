@@ -6,7 +6,7 @@ folderIc.onclick = () => {
         menuBar.style.maxHeight = null;
         folderIc.className = "fas fa-folder fa-2x";
     } else {
-        menuBar.style.maxHeight = menuBar.scrollHeight + "px";
+        menuBar.style.maxHeight = "1000px";
         folderIc.className = "fas fa-folder-open fa-2x";
     }
 }
