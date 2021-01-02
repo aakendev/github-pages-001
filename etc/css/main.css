@@ -15,6 +15,9 @@ body{
   font-family:roboto-reg;
   color:#FFFFFF;
 }
+a{
+  text-decoration-none;
+}
 
 // FONTS
 @font-face{
@@ -35,7 +38,7 @@ body{
   width:80%;
   height:300px;
   border-radius:10px;
-  margin-top:10px;
+  margin-top:25px;
   box-shadow:5px 5px rgba(0,0,0,0.3);
 }
 .code-ctr-top{
@@ -88,4 +91,82 @@ body{
 }
 .mt-1{
   margin-top:10px;
+}
+.menu-dd{
+  width:100%;
+  height:50px;
+  padding:5px 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  background:#000000;
+  border:2.5px solid #FFFFFF;
+}
+.menu-bar{
+  width:100%;
+  max-height:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:#000000;
+  overflow:hidden;
+  transition:max-height 0.5s ease-out;
+}
+.menu-item{
+  width:100%;
+  height:50px;
+  border-bottom:2.5px solid #FFFFFF;
+}
+.menu-link{
+  color:#FFFFFF;
+  display:block;
+  width:100%;
+  height:50px;
+  text-decoration:none;
+  text-align:center;
+  line-height:50px;
+  font-size:20px;
+}
+.menu-link:hover{
+  background:#666666;
+  color:#000000;
+  font-weight:bold;
+}
+.flex{
+  flex:1;
+}
+.flex-10{
+  width:10%;
+}
+.flex-20{
+  width:20%;
+}
+.txt-sm{
+  font-size:10px;
+}
+.txt-md{
+  font-size:12px;
+}
+.txt-nm{
+  font-size:14px;
+}
+.txt-lg{
+  font-size:20px;
+}
+.txt-xl{
+  font-size:24px;
+}
+.txt-sp{
+  font-size:36px;
+}
+.txt-b{
+  font-weight:bold;
+}
+.txt-i{
+  font-style:italic;
+}
+.txt-u{
+  text-decoration:underline;
 }
