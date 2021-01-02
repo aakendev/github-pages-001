@@ -12,6 +12,8 @@ body{
   display:flex;
   flex-direction:column;
   align-items:center;
+  font-family:roboto-reg;
+  color:#FFFFFF;
 }
 
 // FONTS
@@ -22,6 +24,10 @@ body{
 @font-face{
   font-family:linlib-reg;
   src:url('../fonts/linlib-reg.ttf');
+}
+@font-face{
+  font-family:roboto-reg;
+  src:url('../fonts/roboto-reg.ttf');
 }
 
 .code-ctr{
@@ -79,4 +85,7 @@ body{
 .cyan{
   background:#379E9D;
   box-shadow:2px 2px rgba(55,158,157,0.3);
+}
+.mt-1{
+  margin-top:10px;
 }
