@@ -1,6 +1,6 @@
 var folderIc = document.querySelector("#folder-ic");
 var menuBar = document.querySelector("#menu-bar");
-var btnCheck = document.querySelector("#btn-check");
+var btnCheck = document.querySelectorAll(".btn-check");
 var trueIcon = document.querySelectorAll(".fa-check-circle");
 
 folderIc.onclick = () => {
@@ -13,13 +13,15 @@ folderIc.onclick = () => {
     }
 }
 
-btnCheck.onclick = () => {
-    for(var i = 0; i < trueIcon.length; i++){
-        trueIcon[i].style.color = "#00FF00";
-    }
-    setTimeout(() => {
-        for(var j = 0; j < trueIcon.length; j++){
-            trueIcon[j].style.color = "#B7193D";
+for(var k = 0; k < btnCheck.length; k++){
+    btnCheck[k].onclick = () => {
+        for(var i = 0; i < trueIcon.length; i++){
+            trueIcon[i].style.color = "#00FF00";
         }
-    }, 3000);
+        setTimeout(() => {
+            for(var j = 0; j < trueIcon.length; j++){
+                trueIcon[j].style.color = "#B7193D";
+            }
+        }, 5000);
+    }
 }

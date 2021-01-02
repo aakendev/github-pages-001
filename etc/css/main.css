@@ -37,6 +37,22 @@ a{
   src:url('../fonts/lgcafe-reg.ttf');
 }
 
+.code-desc{
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+}
+.code-desc span{
+  background:#FDB61E;
+  color:#000000;
+  padding:2.5px;
+  border-radius:2.5px;
+  font-style:italic;
+}
+.code-desc p{
+  margin-top:15px;
+  line-height:30px;
+}
 .main-quiz{
   background:#000000;
   width:90%;
@@ -81,7 +97,7 @@ a{
 .code-ctr{
   background:#000000;
   width:80%;
-  height:300px;
+  height:200px;
   border-radius:10px;
   margin-top:25px;
   box-shadow:5px 5px rgba(0,0,0,0.3);
@@ -114,7 +130,7 @@ a{
 .code-ctr-btm{
   background:#093524;
   width:100%;
-  height:270px;
+  height:170px;
   border-radius:0 0 10px 10px;
   padding:10px;
   overflow:auto;
@@ -135,10 +151,6 @@ a{
   box-shadow:2px 2px rgba(55,158,157,0.3);
 }
 .fa-check-circle{
-  color:#B7193D;
-  font-weight:bold;
-}
-.fa-times-circle{
   color:#B7193D;
   font-weight:bold;
 }
