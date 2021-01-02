@@ -1,139 +1,324 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content=width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000000">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
 
-    <title>AAKEN Developer | HTML Basics</title>
+  <title>AAKEN Developer | HTML Basics</title>
 
-    <link rel="stylesheet" href="../etc/css/main.css">
-    <link rel="icon" href="../etc/favicon/favicon.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  </head>
-  <body>
+  <link rel="stylesheet" href="../etc/css/main.css">
+  <link rel="icon" href="../etc/favicon/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
 
-    <div class="mt-1">
-      <a href="../index.html"><h1>AAKEN Developer<br/>Demo &amp; Portfolio</h1></a>
+  <div class="mt-1">
+    <a href="../index.html"><h1>AAKEN Developer<br />Demo &amp; Portfolio</h1></a>
+  </div>
+
+  <div class="menu-dd mt-1">
+    <div class="flex txt-lg txt-b">
+      <p>
+        HTML Basics
+      </p>
     </div>
-
-    <div class="menu-dd mt-1">
-      <div class="flex txt-lg txt-b"><p>HTML Basics</p></div>
-      <div class="flex-10"><span id="folder-ic" class="fas fa-folder fa-2x"></span></div>
+    <div class="flex-10">
+      <span id="folder-ic" class="fas fa-folder fa-2x"></span>
     </div>
-    <div id="menu-bar" class="menu-bar">
-      <div class="menu-item"><a class="menu-link" href="html-basics.html">HTML Basics</a></div>
-      <div class="menu-item"><a class="menu-link" href="html-intermediate.html">HTML Intermediate</a></div>
-      <div class="menu-item"><a class="menu-link" href="css-basics.html">CSS Basics</a></div>
-      <div class="menu-item"><a class="menu-link" href="css-functions.html">CSS Functions</a></div>
-      <div class="menu-item"><a class="menu-link" href="css-classes.html">CSS Classes</a></div>
-      <div class="menu-item"><a class="menu-link" href="css-layout-fundamentals.html">CSS Layout Fundamentals</a></div>
-      <div class="menu-item"><a class="menu-link" href="flexbox-basics.html">Flexbox Basics</a></div>
-      <div class="menu-item"><a class="menu-link" href="flexbox-containers.html">Flexbox Containers</a></div>
-      <div class="menu-item"><a class="menu-link" href="flexbox-items.html">Flexbox Items</a></div>
-      <div class="menu-item"><a class="menu-link" href="javascript-basics.html">JavaScript Basics</a></div>
-      <div class="menu-item"><a class="menu-link" href="types-and-comparisons.html">Types and Comparisons</a></div>
-      <div class="menu-item"><a class="menu-link" href="conditionals.html">Conditionals</a></div>
-      <div class="menu-item"><a class="menu-link" href="loops.html">Loops</a></div>
-      <div class="menu-item"><a class="menu-link" href="arrays.html">Arrays</a></div>
-      <div class="menu-item"><a class="menu-link" href="functions.html">Functions</a></div>
-      <div class="menu-item"><a class="menu-link" href="objects.html">Objects</a></div>
-      <div class="menu-item"><a class="menu-link" href="reusable-programs.html">Reusable Programs</a></div>
-      <div class="menu-item"><a class="menu-link" href="dynamic-webpages.html">Dynamic Webpages</a></div>
-      <div class="menu-item"><a class="menu-link" href="classes.html">Classes</a></div>
+  </div>
+  <div id="menu-bar" class="menu-bar">
+    <div class="menu-item">
+      <a class="menu-link" href="html-basics.html">HTML Basics</a>
     </div>
-
-    <div class="main-title">
-      <h2>HTML BASICS</h2>
+    <div class="menu-item">
+      <a class="menu-link" href="html-intermediate.html">HTML Intermediate</a>
     </div>
-
-    <div class="main-content">
-      <h3>Discovering HTML &amp; Tags</h3>
-      <p><b>HTML</b> is the computer language that structures all the webpages on the internet.</p>
-      <p>HTML code tells web browsers how to display content like images, links, and text on a webpage.</p>
+    <div class="menu-item">
+      <a class="menu-link" href="css-basics.html">CSS Basics</a>
     </div>
+    <div class="menu-item">
+      <a class="menu-link" href="css-functions.html">CSS Functions</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="css-classes.html">CSS Classes</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="css-layout-fundamentals.html">CSS Layout Fundamentals</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="flexbox-basics.html">Flexbox Basics</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="flexbox-containers.html">Flexbox Containers</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="flexbox-items.html">Flexbox Items</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="javascript-basics.html">JavaScript Basics</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="types-and-comparisons.html">Types and Comparisons</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="conditionals.html">Conditionals</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="loops.html">Loops</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="arrays.html">Arrays</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="functions.html">Functions</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="objects.html">Objects</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="reusable-programs.html">Reusable Programs</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="dynamic-webpages.html">Dynamic Webpages</a>
+    </div>
+    <div class="menu-item">
+      <a class="menu-link" href="classes.html">Classes</a>
+    </div>
+  </div>
 
-    <div class="main-quiz">
-      <div class="main-quiz-top">
-        <p>Intermezzo Quiz</p>
+  <div class="main-title">
+    <h2>HTML BASICS</h2>
+  </div>
+
+  <div class="main-content">
+    <h3>Discovering HTML &amp; Tags</h3>
+    <p>
+      <b>HTML</b> is the computer language that structures all the webpages on the internet.
+    </p>
+    <p>
+      HTML code tells web browsers how to display content like images, links, and text on a webpage.
+    </p>
+  </div>
+
+  <div class="main-quiz">
+    <div class="main-quiz-top">
+      <p>
+        Intermezzo Quiz
+      </p>
+    </div>
+    <div class="main-quiz-btm">
+      <p>
+        Which computer language structures all webpages on the internet ?
+        <br />a. Java
+        <br />b. JavaScript
+        <br />c. HTML <span class="fas fa-check-circle"></span>
+        <br />d. CSS
+        <br /><br /><button class="btn-check" type="button">Check Answer</button>
+      </p>
+    </div>
+  </div>
+
+  <div class="main-quiz">
+    <div class="main-quiz-top">
+      <p>
+        Intermezzo Quiz
+      </p>
+    </div>
+    <div class="main-quiz-btm">
+      <p>
+        Which one of these <b>HTML tags</b> creates a button ?
+        <br />a. &lt;video&gt;
+        <br />b. &lt;button&gt; <span class="fas fa-check-circle"></span>
+        <br />c. &lt;h1&gt;
+        <br />d. &lt;p&gt;
+        <br /><br /><button class="btn-check" type="button">Check Answer</button>
+      </p>
+    </div>
+  </div>
+
+  <div class="code-desc">
+    <p>
+      Add a <span>&lt;button&gt;</span> tag to your code.
+    </p>
+    <p>
+      <span>&lt;button&gt;</span> is an <b>opening tag.</b> It tells the web browser we want to start displaying a button.
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
       </div>
-      <div class="main-quiz-btm">
-        <p>Which computer language structures all webpages on the internet ?
-        <br/>a. Java
-        <br/>b. JavaScript
-        <br/>c. HTML <span class="fas fa-check-circle"></span>
-        <br/>d. CSS
-        <br/><br/><button class="btn-check" type="button">Check Answer</button></p>
-      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
     </div>
-
-    <div class="main-quiz">
-      <div class="main-quiz-top">
-        <p>Intermezzo Quiz</p>
-      </div>
-      <div class="main-quiz-btm">
-        <p>Which one of these <b>HTML tags</b> creates a button ?
-        <br/>a. &lt;video&gt;
-        <br/>b. &lt;button&gt; <span class="fas fa-check-circle"></span>
-        <br/>c. &lt;h1&gt;
-        <br/>d. &lt;p&gt;
-        <br/><br/><button class="btn-check" type="button">Check Answer</button></p>
-      </div>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;
+      </code>
     </div>
+  </div>
 
-    <div class="code-desc">
-      <p>Add a <span>&lt;button&gt;</span> tag to your code.</p>
-      <p><span>&lt;button&gt;</span> is an <b>opening tag.</b> It tells the web browser we want to start displaying a button.</p>
+  <div class="main-quiz">
+    <div class="main-quiz-top">
+      <p>
+        Intermezzo Quiz
+      </p>
     </div>
-
-    <div class="code-ctr">
-      <div class="code-ctr-top">
-        <div class="code-ctr-top-txt">
-          <p>index.html</p>
-        </div>
-        <div class="code-ctr-top-cir red"></div>
-        <div class="code-ctr-top-cir yellow"></div>
-        <div class="code-ctr-top-cir cyan"></div>
-      </div>
-      <div class="code-ctr-btm">
-        <code>
-          &lt;button&gt;
-        </code>
-      </div>
+    <div class="main-quiz-btm">
+      <p>
+        What do you think comes after the opening tag: <span>&lt;button&gt;</span> ?
+        <br />a. Another opening tag: &lt;button&gt;
+        <br />b. The closing tag: &lt;/button&gt; <span class="fas fa-check-circle"></span>
+        <br /><br /><button class="btn-check" type="button">Check Answer</button>
+      </p>
     </div>
+  </div>
 
-    <div class="main-quiz">
-      <div class="main-quiz-top">
-        <p>Intermezzo Quiz</p>
+  <div class="code-desc">
+    <p>
+      Tap the code snippets to code the button's closing tag: <span>&lt;/button&gt;</span>.
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
       </div>
-      <div class="main-quiz-btm">
-        <p>What do you think comes after the opening tag: <span>&lt;button&gt;</span> ?
-        <br/>a. Another opening tag: &lt;button&gt;
-        <br/>b. The closing tag: &lt;/button&gt; <span class="fas fa-check-circle"></span>
-        <br/><br/><button class="btn-check" type="button">Check Answer</button></p>
-      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
     </div>
-
-    <div class="code-desc">
-      <p>Tap the code snippets to code the button's closing tag: <span>&lt;/button&gt;</span>.</p>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;&lt;/button&gt;
+      </code>
     </div>
+  </div>
 
-    <div class="code-ctr">
-      <div class="code-ctr-top">
-        <div class="code-ctr-top-txt">
-          <p>index.html</p>
-        </div>
-        <div class="code-ctr-top-cir red"></div>
-        <div class="code-ctr-top-cir yellow"></div>
-        <div class="code-ctr-top-cir cyan"></div>
-      </div>
-      <div class="code-ctr-btm">
-        <code>
-          &lt;button&gt;&lt;/button&gt;
-        </code>
-      </div>
+  <div class="main-quiz">
+    <div class="main-quiz-top">
+      <p>
+        Intermezzo Quiz
+      </p>
     </div>
+    <div class="main-quiz-btm">
+      <p>
+        What do you think this code displays on a website ?
+        <br /><code>&lt;button&gt;I'm Ready to Code&lt;/button&gt;</code>
+        <br />a. A button with the text I'm Ready to Code <span class="fas fa-check-circle"></span>
+        <br />b. An image
+        <br />c. A video
+        <br />d. A button with the text Log in
+        <br /><br /><button class="btn-check" type="button">Check Answer</button>
+      </p>
+    </div>
+  </div>
 
-    <script src="../etc/js/main.js"></script>
-  </body>
+  <div class="code-desc">
+    <p>
+      Code the closing tag.
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
+      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
+    </div>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;Like&lt;/button&gt;
+      </code>
+    </div>
+  </div>
+
+  <div class="code-desc">
+    <p>
+      Code a button that displays <span>Send</span>
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
+      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
+    </div>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;Send&lt;/button&gt;
+      </code>
+    </div>
+  </div>
+
+  <div class="code-desc">
+    <p>
+      Add the missing symbol for a closing tag.
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
+      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
+    </div>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;Add Friend&lt;/button&gt;
+      </code>
+    </div>
+  </div>
+
+  <div class="code-desc">
+    <p>
+      Code a button that displays <span>Comment</span>.
+    </p>
+  </div>
+
+  <div class="code-ctr">
+    <div class="code-ctr-top">
+      <div class="code-ctr-top-txt">
+        <p>
+          index.html
+        </p>
+      </div>
+      <div class="code-ctr-top-cir red"></div>
+      <div class="code-ctr-top-cir yellow"></div>
+      <div class="code-ctr-top-cir cyan"></div>
+    </div>
+    <div class="code-ctr-btm">
+      <code>
+        &lt;button&gt;Comment&lt;/button&gt;
+      </code>
+    </div>
+  </div>
+
+  <script src="../etc/js/main.js"></script>
+</body>
 </html>
